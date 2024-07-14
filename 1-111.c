@@ -24,3 +24,15 @@ void euclid_recursive(int m, int n, int* r) {
   if(*r != 0)euclid_recursive(n, *r, r);
   else *r = n;
 }
+/*
+sample execution -
+./a.out     
+Enter positive integer value for "m":544
+Enter positive integer value for "n":119
+
+544 mod 119 = 68
+119 mod 68 = 51
+68 mod 51 = 17
+51 mod 17 = 0
+17%
+*/
